@@ -192,7 +192,7 @@ function WindowsMenu({ winMenu, handleWinMenu }: Props) {
 							width={30}
 							height={30}
 						></Image>
-						<p>kassq</p>
+						<p>Zulfikar</p>
 					</div>
 					<div>
 						<AiOutlinePoweroff />

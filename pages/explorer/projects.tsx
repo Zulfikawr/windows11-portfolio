@@ -65,7 +65,7 @@ function Projects({ data }: { data: ProjectType[] }) {
 	return (
 		<>
 			<Head>
-				<title>kassq - Projects</title>
+				<title>Zulfikar - Projects</title>
 				<link
 					rel="canonical"
 					href="https://www.kassq.dev/explorer/projects"
@@ -78,7 +78,7 @@ function Projects({ data }: { data: ProjectType[] }) {
 				/>
 
 				{/* OpenGraph */}
-				<meta property="og:title" content="Kassq - Quick access" />
+				<meta property="og:title" content="Zulfikar - Quick access" />
 				<meta
 					property="og:url"
 					content="https://www.kassq.dev/explorer/projects"
@@ -102,10 +102,10 @@ function Projects({ data }: { data: ProjectType[] }) {
 }
 
 export async function getStaticProps() {
-	const res = await fetch(`https://api.github.com/users/KasperiP/repos`);
+	const res = await fetch(`https://api.github.com/users/muhammad-zulfikar/repos`);
 	const data = (await res.json()).filter(
 		(project: ProjectType) =>
-			project.fork === false && project.full_name !== 'KasperiP/KasperiP'
+			project.fork === false && project.full_name !== 'muhammad-zulfikar/muhammad-zulfikar'
 	);
 
 	if (!data) {

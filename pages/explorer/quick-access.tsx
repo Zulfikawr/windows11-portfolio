@@ -89,6 +89,24 @@ function QuickAccess() {
 						</div>
 					</Link>
 
+					<Link href="/explorer/music" passHref>
+						<div className={styles.item}>
+							<div>
+								<Image
+									src="/icons/music/music.png"
+									alt="icon"
+									width={50}
+									height={50}
+								/>
+							</div>
+							<div>
+								<p>Music</p>
+								<p>This PC</p>
+								<BsFillPinAngleFill />
+							</div>
+						</div>
+					</Link>
+
 					<Link href="/explorer/videos" passHref>
 						<div className={styles.item}>
 							<div>
@@ -107,23 +125,6 @@ function QuickAccess() {
 						</div>
 					</Link>
 
-					<Link href="/explorer/music" passHref>
-						<div className={styles.item}>
-							<div>
-								<Image
-									src="/icons/music/music.png"
-									alt="icon"
-									width={50}
-									height={50}
-								/>
-							</div>
-							<div>
-								<p>Music</p>
-								<p>This PC</p>
-								<BsFillPinAngleFill />
-							</div>
-						</div>
-					</Link>
 				</div>
 				<div className={styles.dropdownNav}>
 					<RiArrowDropDownLine />
@@ -162,7 +163,7 @@ function QuickAccess() {
 	return (
 		<>
 			<Head>
-				<title>kassq - Quick access</title>
+				<title>Zulfikar - Quick access</title>
 				<link
 					rel="canonical"
 					href="https://www.kassq.dev/explorer/quick-access"
@@ -175,7 +176,7 @@ function QuickAccess() {
 				/>
 
 				{/* OpenGraph */}
-				<meta property="og:title" content="Kassq - Quick access" />
+				<meta property="og:title" content="Zulfikar - Quick access" />
 				<meta
 					property="og:url"
 					content="https://www.kassq.dev/explorer/quick-access"

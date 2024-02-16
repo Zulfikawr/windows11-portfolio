@@ -495,131 +495,7 @@ function FileExplorer(props: Props) {
 					</div>
 					{thisPC && (
 						<>
-							<Link href="/explorer/desktop" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/desktop'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/desktop/desktop.png"
-										alt="ico"
-										width={16}
-										height={16}
-									/>
-									<p>Desktop</p>
-								</div>
-							</Link>
-							<Link href="/explorer/downloads" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/downloads'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/downloads/downloads_small.png"
-										alt="ico"
-										width={16}
-										height={16}
-										unoptimized
-									/>
-									<p>Downloads</p>
-								</div>
-							</Link>
-							<Link href="/explorer/documents" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/documents'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/documents/documents_small.png"
-										alt="ico"
-										width={16}
-										height={16}
-									/>
-									<p>Documents</p>
-								</div>
-							</Link>
-
-							<Link href="/explorer/pictures" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/pictures'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/pictures/pictures_small.png"
-										alt="ico"
-										width={16}
-										height={16}
-									/>
-									<p>Pictures</p>
-								</div>
-							</Link>
-
-							<Link href="/explorer/videos" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/videos'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/videos/videos_small.png"
-										alt="ico"
-										width={16}
-										height={16}
-									/>
-									<p>Videos</p>
-								</div>
-							</Link>
-
-							<Link href="/explorer/music" passHref>
-								<div
-									className={styles.navigationItem}
-									style={
-										router.asPath == '/explorer/music'
-											? {
-													backgroundColor: '#2e2e2e',
-											  }
-											: {}
-									}
-								>
-									<Image
-										src="/icons/music/music_small.png"
-										alt="ico"
-										width={16}
-										height={16}
-									/>
-									<p>Music</p>
-								</div>
-							</Link>
-
+							
 							<Link href="/explorer/drives/C" passHref>
 								<div
 									className={styles.navigationItem}
@@ -637,7 +513,7 @@ function FileExplorer(props: Props) {
 										width={16}
 										height={16}
 									/>
-									<p>250GB SSD</p>
+									<p>Windows (C:)</p>
 								</div>
 							</Link>
 
@@ -658,7 +534,7 @@ function FileExplorer(props: Props) {
 										width={16}
 										height={16}
 									/>
-									<p>1TB SSD</p>
+									<p>Local Disk (D:)</p>
 								</div>
 							</Link>
 						</>

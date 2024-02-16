@@ -10,7 +10,7 @@ function Links() {
 		return (
 			<>
 				<div className={styles.listItemContainer}>
-					<Link href={'https://twitter.com/kpohtinen'} passHref>
+					<Link href={'https://www.linkedin.com/in/muhammad-zulfikar-076a7b227'} passHref>
 						<a target="_blank">
 							<div className={styles.listItem}>
 								<div className={styles.listItemName}>
@@ -20,7 +20,7 @@ function Links() {
 										width={18}
 										height={18}
 									></Image>
-									<p>Twitter</p>
+									<p>LinkedIn</p>
 								</div>
 								<p className={styles.listItemDateModified}>
 									30/12/2021 02:02
@@ -53,7 +53,7 @@ function Links() {
 							</div>
 						</a>
 					</Link>
-					<Link href={'https://github.com/KasperiP/'} passHref>
+					<Link href={'https://github.com/muhammad-zulfikar/'} passHref>
 						<a target="_blank">
 							<div className={styles.listItem}>
 								<div className={styles.listItemName}>
@@ -63,7 +63,7 @@ function Links() {
 										width={18}
 										height={18}
 									></Image>
-									<p>Github</p>
+									<p>GitHub</p>
 								</div>
 								<p className={styles.listItemDateModified}>
 									01/08/2022 08:00
@@ -128,7 +128,7 @@ function Links() {
 	return (
 		<>
 			<Head>
-				<title>kassq - Links</title>
+				<title>Zulfikar - Links</title>
 				<link
 					rel="canonical"
 					href="https://www.kassq.dev/explorer/links"
@@ -141,7 +141,7 @@ function Links() {
 				/>
 
 				{/* OpenGraph */}
-				<meta property="og:title" content="Kassq - Links" />
+				<meta property="og:title" content="Zulfikar - Links" />
 				<meta
 					property="og:url"
 					content="https://www.kassq.dev/explorer/links"

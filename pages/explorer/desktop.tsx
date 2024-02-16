@@ -25,9 +25,29 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Text Document</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
+
+					<Link href="/explorer/resume" passHref>
+						<div className={styles.listItem}>
+							<div className={styles.listItemName}>
+								<Image
+									src="/icons/folder/folder.png"
+									alt="icon"
+									width={16}
+									height={16}
+								></Image>
+								<p>Resume</p>
+							</div>
+							<p className={styles.listItemDateModified}>
+								30.01.2021 04:02
+							</p>
+							<p className={styles.listItemType}>Folder</p>
+							<p className={styles.listItemSize}>2kb</p>
+						</div>
+					</Link>
+					
 					<Link href="/explorer/projects" passHref>
 						<div className={styles.listItem}>
 							<div className={styles.listItemName}>
@@ -43,9 +63,10 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
+
 					<Link href="/explorer/tools" passHref>
 						<div className={styles.listItem}>
 							<div className={styles.listItemName}>
@@ -61,27 +82,10 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
-					<Link href="/explorer/podcasts" passHref>
-						<div className={styles.listItem}>
-							<div className={styles.listItemName}>
-								<Image
-									src="/icons/folder/folder.png"
-									alt="icon"
-									width={16}
-									height={16}
-								></Image>
-								<p>Podcasts I listen to</p>
-							</div>
-							<p className={styles.listItemDateModified}>
-								30.01.2021 04:02
-							</p>
-							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
-						</div>
-					</Link>
+					
 					<Link href="/explorer/links" passHref>
 						<div className={styles.listItem}>
 							<div className={styles.listItemName}>
@@ -97,7 +101,7 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
 
@@ -116,7 +120,7 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
 
@@ -135,7 +139,7 @@ function Desktop() {
 								30.12.2021 04:02
 							</p>
 							<p className={styles.listItemType}>Folder</p>
-							<p className={styles.listItemSize}>2kt</p>
+							<p className={styles.listItemSize}>2kb</p>
 						</div>
 					</Link>
 				</div>
@@ -146,9 +150,9 @@ function Desktop() {
 	return (
 		<>
 			<Head>
-				<title>kassq - Desktop</title>
+				<title>Zulfikar - Desktop</title>
 				<link
-					rel="canonical"
+					rel="zulfikar"
 					href="https://www.kassq.dev/explorer/desktop"
 				/>
 
@@ -159,7 +163,7 @@ function Desktop() {
 				/>
 
 				{/* OpenGraph */}
-				<meta property="og:title" content="Kassq - Desktop" />
+				<meta property="og:title" content="Zulfikar - Desktop" />
 				<meta
 					property="og:url"
 					content="https://www.kassq.dev/explorer/desktop"

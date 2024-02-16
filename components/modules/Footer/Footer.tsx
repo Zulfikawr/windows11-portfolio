@@ -73,6 +73,18 @@ function Footer() {
 							className="windowsIcon"
 						/>
 					</div>
+
+					<Link href="/terminal" passHref>
+						<div className={styles.icon}>
+							<Image
+								src={'/icons/terminal/terminal.png'}
+								width={25}
+								height={25}
+								alt="logo"
+							/>
+						</div>
+					</Link>
+
 					<Link href="/explorer/quick-access" passHref>
 						<div className={styles.icon}>
 							<Image
@@ -83,6 +95,7 @@ function Footer() {
 							/>
 						</div>
 					</Link>
+
 					<div
 						className={styles.icon}
 						onClick={() => handleError('Firefox')}
@@ -140,16 +153,7 @@ function Footer() {
 							alt="logo"
 						/>
 					</div>
-					<Link href="/terminal" passHref>
-						<div className={styles.icon}>
-							<Image
-								src={'/icons/terminal/terminal.png'}
-								width={25}
-								height={25}
-								alt="logo"
-							/>
-						</div>
-					</Link>
+
 				</section>
 				<section className={styles.toolbarContainer}>
 					<div className={styles.language}>

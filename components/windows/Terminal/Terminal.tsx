@@ -29,7 +29,7 @@ function Terminal() {
 						...history,
 						{
 							input: input,
-							response: `kassq`,
+							response: `Zulfikar`,
 						},
 					]);
 					break;
@@ -109,7 +109,7 @@ function Terminal() {
 	return (
 		<DraggableWindow
 			windowName={'terminal'}
-			topTitle={'MINGW64:/c/Users/kassq'}
+			topTitle={'Administrator: Command Prompt'}
 			topIcon={
 				<Image
 					src={`/icons/terminal/terminal.png`}
@@ -126,7 +126,7 @@ function Terminal() {
 						className={styles.historyItem}
 					>
 						<p className={styles.terminalTitle}>
-							kassq@Kasperi <span>MINGW64</span> <span>~</span>
+							C:\Users\Zulfikar <span>Terminal</span> <span>~</span>
 						</p>
 						<p>$ {item.input}</p>
 						{item.response?.split('<br/>')?.map((text, index) => (
@@ -136,7 +136,7 @@ function Terminal() {
 				))}
 				<div className={styles.historyItem}>
 					<p className={styles.terminalTitle}>
-						kassq@Kasperi <span>MINGW64</span> <span>~</span>
+						C:\Users\Zulfikar <span>Terminal</span> <span>~</span>
 					</p>
 					<div className={`${styles.promt}`}>
 						<p>$</p>
